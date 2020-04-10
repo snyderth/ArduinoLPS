@@ -1,6 +1,19 @@
 #ifndef __TDOA2_H_
 #define __TDOA2_H_
 
+/**
+ * tdoa2.h
+ * This is a class that implements the tdoa2 algorithm
+ * implemented by Bitcraze.
+ * Heavily based on crazyflie-firmware codebase
+ * @see https://github.com/bitcraze/crazyflie-firmware
+ * @see http://mikehamer.info/assets/papers/Ledergerber,%20Hamer,%20DAndrea%20-%20IROS%202015.pdf
+ * 
+ * Author:  Thomas Snyder
+ * Date:    4/9/2020
+ * 
+ */
+
 #include "DW1000.h"
 #include "DW1000Time.h"
 #include "generic_types.h"

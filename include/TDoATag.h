@@ -1,6 +1,17 @@
 #ifndef _TDOATAG_H_
 #define _TDOATAG_H_
 
+/**
+ * tdoatag.h
+ * A class that allows easy interfacing from a uC that interfaces the tag
+ * to another microcontroller over a UART connection. One can send tdoa 
+ * data to another microcontroller via the << operator (using the tdoaMeasurement_t)
+ * struct and can cast it to that struct on the other microcontroller
+ * 
+ * Author:  Thomas Snyder
+ * Date:    4/9/2020
+ */
+
 #include <Arduino.h>
 #include "generic_types.h"
 #include <SoftwareSerial.h>

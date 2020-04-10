@@ -1,3 +1,14 @@
+/**
+ *  locodeck.h
+ *  A class that contains an interface to the Loco Positioning
+ *  Deck from Bitcraze that is meant for the Crazyflie platform.
+ *  This class does not contain the TDoA calculations for localization
+ *  It only contains the interface to the tag.
+ * 
+ *  Author: Thomas Snyder
+ *  Date:   4/9/2020
+ */
+
 #ifndef __LOCO_DECK_H_
 #define __LOCO_DECK_H_
 

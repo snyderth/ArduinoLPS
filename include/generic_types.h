@@ -30,10 +30,10 @@ typedef struct packet_s{
 }__attribute__((packed)) loco_packet_t;
 
 
-
-#ifndef vector3
-
-
+// Always use this vector 3 struct
+#ifdef vector3
+#undef vector3
+#endif
 
 typedef struct vector3{
     float x;
@@ -57,7 +57,6 @@ typedef struct vector3{
 
 typedef vec3 point3;
 void print_point3(point3);
-#endif
 
 //To queue up for the estimator
 typedef struct tdoaMeasurement_s{
