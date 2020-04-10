@@ -2,7 +2,7 @@
 
 An Arduino Library to use the [Bitcraze LPS tag](https://www.bitcraze.io/products/loco-positioning-deck/) on an Arduino microcontroller.
 
-NOTE: This library depends on the DW1000 arduino library from [thotro/arduino-dw1000](https://github.com/thotro/arduino-dw1000) and adapted with some minor changes. The new library is found [snyderth/DW1000](https://github.com/snyderth/DW1000)
+NOTE: This library depends on the DW1000 arduino library from [thotro/arduino-dw1000](https://github.com/thotro/arduino-dw1000) with an added LED blink function. The new library is found [snyderth/DW1000](https://github.com/snyderth/DW1000)
 
 ## Usage
 
